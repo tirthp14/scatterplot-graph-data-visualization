@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+svg {
+    background-color: #FFF;
+}
+
+#tooltip {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    max-height: none;
+    font: 12px;
+    padding: 10px;
+    background-color: rgb(46, 62, 82, 0.7);
+    box-shadow: 1px 1px 10px;
+    border-radius: 2px;
+    pointer-events: none;
+    color: white;
+    opacity: 0;
+}
+
+#tooltip p {
+    margin: 0;
+}
+
+#title {
+    font-weight: 600;
+    font-size: 34px;
+    fill: #333
+}
+
+#x-axis,
+#y-axis {
+    font-size: 14px;
+}
+
+#legend text {
+    font-size: 14px;
+}
